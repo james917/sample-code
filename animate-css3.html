@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>CSS3 Animation</title>
+<style>
+*
+{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+body
+{
+	font-family: sans-serif;
+	font-size: 100%;
+	color: #fff;
+	background-color: #444;
+	margin: 1em;
+}
+
+h1
+{
+	font-size: 1.5em;
+	font-weight: normal;
+	margin: 0 0 0.5em 0;
+}
+
+p.about
+{
+	font-size: 85%;
+	margin: 1em;
+}
+
+a { color: #ff8; }
+
+#myelement
+{
+	width: 10em;
+	font-size: 2em;
+	font-weight: bold;
+	padding: 1em;
+	margin: 50px auto;
+	border-radius: 5px;
+	-webkit-animation: colorchange 5s linear 1s infinite alternate;
+	animation: colorchange 5s linear 1s infinite alternate;
+}
+
+@-webkit-keyframes colorchange
+{
+	0%   { background-color: #00F; /* from: blue */ }
+	25%  { background-color: #F00; /* red        */ }
+	50%  { background-color: #0F0; /* green      */ }
+	75%  { background-color: #F0F; /* purple     */ }
+	100% { background-color: #00F; /* to: blue   */ }
+}
+
+@keyframes colorchange
+{
+	0%   { background-color: #00F; /* from: blue */ }
+	25%  { background-color: #F00; /* red        */ }
+	50%  { background-color: #0F0; /* green      */ }
+	75%  { background-color: #F0F; /* purple     */ }
+	100% { background-color: #00F; /* to: blue   */ }
+}
+</style>
+</head>
+<body>
+
+<h1>Animation Example...</h1>
+<blockquote>
+Here is a simple example of an animating element using CSS3 
+</blockquote>
+
+<button id="myelement">Animating button</button>
+
+</body>
+</html>

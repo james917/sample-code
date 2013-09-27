@@ -1,0 +1,364 @@
+<!doctype html>
+
+<html lang="eng">
+	
+	<meta charset="utf-8">
+	<title>Metis:  Illustration Page </title>
+	
+	<head>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- 1140px Grid styles for IE -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+
+	<link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" />
+	
+
+	<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+	<script src="js/jquery.anythingslider.js"></script>
+	
+		<script>
+		// DOM Ready
+		$(function(){
+			$('#slider').anythingSlider();
+		});
+	</script>
+	</head>
+	<body>
+		
+
+<div class="container">
+	<div class="row">
+		<div class="threecol">
+			<!--empty-->
+		</div>
+		<div class="sixcol">
+				<h1 id="imgBranding"></h1>
+		</div>
+		<div class="threecol last">
+
+			<nav id="userMenu">
+			<ul>
+				<li><a href="#">Help</a> </li> 
+				<li><a href="#">Logout</a></li>
+				<li ><a href="#"><span class="username">User: Parker</span></a></li> 
+			</ul>
+			
+			
+					  <label class="mainLabel">Agencies<input list="agencies" name="agency-input"></label>
+   <datalist id="agencies">
+    <label>or select:
+     <select name="second-select">
+      <option value="">[empty]</option>
+      <option>First</option>
+      <option>Second</option>
+      <option>Third</option>
+     </select>
+    </label>
+   </datalist>
+   <p id="combo"><input type="submit" name="submit" value="Submit" class="combo" ></p>
+  </form>	
+						
+				</nav >
+			
+				
+		</div>
+	</div>
+</div>
+
+
+<div class="container">
+	<div class="row">
+		<div class="twelvecol">
+			
+			<nav id="mainNavigation" >
+				<ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a  href="illustration.html " class="selected">Illustration</a></li>
+					<li><a href="#">Search</a></li>
+					<li><a href="#">User Interface</a></li>
+					<li><a href="#">Tools</a></li>
+				</ul>
+			</nav>
+	
+
+
+<section id="mainWrapper" >
+
+<article id="illustrationItemTop" >
+	<header>
+	<h2> Create illustration</h2>	
+</header>
+	<div class="fileds">
+	
+<span class="label">Illustration ID</span>
+<input class="Id" type="text" disabled="disabled" value="" name="IllustrationBO_illustrationId">
+
+<span class="label">Illustration Name</span>
+<input class="changeable " type="text" enabled="enabled" value="" name="IllustrationBO_illustrationName">
+
+
+
+<span class="label">Created Date</span>
+
+
+<input id="dp1347388611086" class="datepicker hasDatepicker" type="text" disabled="disabled" value="11/09/2012" name="IllustrationBO_createDate">
+
+</div>
+
+<div class="buttons">
+	<input class="new" type="button" value="New">
+	<input class="save" type="button" value="Save">
+	<input class="cancel" type="button" value="Cancel">
+	<input class="delete" type="button" value="Delete">
+	<input class="copy" type="button" value="Copy">
+	<input class="print" type="button" value="Print">
+</div>
+</article>
+<!----top section--->
+
+<article id="illustrationItem">
+	
+	<h2> Insured</h2>
+	
+	<ul class="tabnav">
+              <li class="currLoc">John Doe</li><li >Insured 2</li><li>Insured 3</li><li class="added"> + </li>
+            </ul>
+	<div class="tabContents">
+		
+		<div class= " topInfoInsure">
+	
+	
+		<span class="label">First name</span>
+				<input class="required changeable readonly " type="text" disabled="disabled" value="" name="IllustrationBO_ContractBO_0_ContractRoleBO_1_PartyBO_0_IndividualBO_firstName">
+				
+				<span class="label">Last name</span>
+				<input class="required changeable readonly " type="text" disabled="disabled" value="" name="IllustrationBO_ContractBO_0_ContractRoleBO_1_PartyBO_0_IndividualBO_lastName">
+				
+				<span class="label">Gender</span>
+				<select class="changeable readonly " disabled="disabled" name="IllustrationBO_ContractBO_0_ContractRoleBO_1_PartyBO_0_IndividualBO_sex">
+				<option value="FEMALE">FEMALE</option>
+		<option value="MALE">MALE</option>
+	</select>
+
+<span class="label">Date of Birth</span>
+<input id="dp1347388611089" class="datepicker changeable readonly hasDatepicker" type="text" disabled="disabled" value="" name="IllustrationBO_ContractBO_0_ContractRoleBO_1_PartyBO_0_IndividualBO_dateOfBirth">
+
+
+	<span class="label">Nicotine usage</span>
+		<select class="required changeable readonly " disabled="disabled" name="IllustrationBO_ContractBO_0_ContractRoleBO_1_PartyBO_0_IndividualBO_InsuredPersonBO_nicotineUsage">
+		<option value="NEVER_USED">Never Used</option>
+		<option value="NO_CIGARETTES_PAST_12_MONTHS">No cigarettes in past 12 months</option>
+		<option value="NO_NICOTINE_LAST_12_MONTHS">No nicotine or tobacco in last 12 months</option>
+		<option value="NO_NICOTINE_LAST_3_YEARS">No nicotine or tobacco in last 3 years</option>
+		<option value="NonSmoker">NonSmoker</option>
+		<option value="SMOKE_CIGARETTES">Smokes cigarettes</option>
+		<option value="SOME_NICOTINE">Uses some form of nicotine or tobacco</option>
+	</select>
+
+
+
+</div>
+
+<div class="buttons">
+	<input class="cancel" type="button" value="Cancel">
+	<input class="delete" type="button" value="Delete">
+	<input class="search" type="button" value= "Search" >
+	<input class="edit"  type="button" value= "Edit" >
+
+</div>
+		
+		
+		
+		
+		
+		
+	</div>
+	
+	
+</article>
+
+
+<!---Insured section ends--->
+
+
+
+<article id="illustrationItem">
+	
+	<h2>Quotes</h2>
+	<ul class="tabnav">
+              <li class="currLoc">John Doe</li><li >Quote 2</li><li class="added"> + </li>
+            </ul>
+	<div class="tabContents">
+		
+		<div class= " topInfoInsure">
+	
+	
+	<span class="label">First name</span>
+		<input class="required changeable readonly " type="text" disabled="disabled" value="" name="IllustrationBO_ContractBO_0_ContractRoleBO_1_PartyBO_0_IndividualBO_firstName">
+		
+		<span class="label">Last name</span>
+		<input class="required changeable readonly " type="text" disabled="disabled" value="" name="IllustrationBO_ContractBO_0_ContractRoleBO_1_PartyBO_0_IndividualBO_lastName">
+		
+		<span class="label">Gender</span>
+		<select class="changeable readonly " disabled="disabled" name="IllustrationBO_ContractBO_0_ContractRoleBO_1_PartyBO_0_IndividualBO_sex">
+		<option value="FEMALE">FEMALE</option>
+	<option value="MALE">MALE</option>
+</select>
+
+<span class="label">Date of Birth</span>
+<input id="dp1347388611089" class="datepicker changeable readonly hasDatepicker" type="text" disabled="disabled" value="" name="IllustrationBO_ContractBO_0_ContractRoleBO_1_PartyBO_0_IndividualBO_dateOfBirth">
+
+<br>
+
+	<span class="label">Nicotine usage</span>
+		<select class="required changeable readonly " disabled="disabled" name="IllustrationBO_ContractBO_0_ContractRoleBO_1_PartyBO_0_IndividualBO_InsuredPersonBO_nicotineUsage">
+		<option value="NEVER_USED">Never Used</option>
+		<option value="NO_CIGARETTES_PAST_12_MONTHS">No cigarettes in past 12 months</option>
+		<option value="NO_NICOTINE_LAST_12_MONTHS">No nicotine or tobacco in last 12 months</option>
+		<option value="NO_NICOTINE_LAST_3_YEARS">No nicotine or tobacco in last 3 years</option>
+		<option value="NonSmoker">NonSmoker</option>
+		<option value="SMOKE_CIGARETTES">Smokes cigarettes</option>
+		<option value="SOME_NICOTINE">Uses some form of nicotine or tobacco</option>
+	</select>
+
+
+
+</div>
+
+<div class="buttons">
+	<input class="cancel" type="button" value="Cancel">
+	<input class="delete" type="button" value="Delete">
+	<input class="search" type="button" value= "Search" >
+	<input class="edit"  type="button" value= "Edit" >
+
+</div>
+
+
+
+
+
+
+</article>
+
+
+
+
+<article id="illustrationItemBot">
+	
+
+<div class="contracts" >
+	<h3 id="benefits">Available Benefits</h3>
+	<ul class="contracts-container ">
+		<li>
+				<label> Business Continuity </label> <input  type="checkbox">
+			</li>
+			<li> <label>Business Overhead - Agreed Value</label><input  type="checkbox"> </li>
+			<li><label>Business Overhead - Indemnity </label> <input  type="checkbox"></li>
+			<li><label> Life Cover</label> <input  type="checkbox"></li>
+			<li><label>Total Permanent Disablement </label> <input  type="checkbox"></li>
+	</ul>
+	
+</div>
+
+
+
+
+	
+	
+	
+</article>
+<aside id ="illustrationItemAside">
+	
+
+	
+	
+	<ul id="slider">
+
+		<li> 
+		<p>
+			Slide Insureance Quote 1
+			
+			
+			Information goes here  Dynamically .... 
+			
+			
+		</p>	
+			
+			 </li>
+		<li>Slide 2 Insureance Quote 2 </li>
+
+		<li>Slide 3 Insureance Quote 3 </li>
+
+		<li>Slide 4 Insureance Quote 4</li>
+
+	</ul>
+	
+	
+	
+</aside>
+
+
+
+
+
+
+
+
+</section>
+
+		
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<!--<div class="container">
+	<div class="row">
+		<div class="twelvecol last">
+			<p>Twelve Columns</p>
+		</div>
+	</div>
+</div>-->
+
+<div class="container">
+	<div class="row">
+		<div class="fourcol">
+			<!--empty-->
+		</div>
+		<div class="fourcol">
+			<footer id="mainFooter">
+				
+				
+				<nav id="footerMenu">
+<ul>
+<li >
+<a target="_self" href="http://www.fja-us.com/">FJA</a>
+</li>
+<li >
+<a target="_self" href="#">Terms &amp; Conditions</a>
+</li>
+<li>
+<a target="_blank" href="http://www.fja-us.com/">Contact Us</a>
+</li>
+</ul>
+</nav>
+		</div>
+		<div class="fourcol last">
+			<!--empty-->
+		</div>
+	</div>
+</div>
+
+
+	</body>
+</html>
